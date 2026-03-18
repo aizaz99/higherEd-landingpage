@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Student support resources at Campus Connect." />
+  <title>Campus Connect | Resources</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/print.css" media="print" />
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Campus Connect</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="resources.html" aria-current="page">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="page-main">
+    <div class="container breadcrumb-wrap">
+      <nav aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li aria-current="page">Resources</li>
+        </ol>
+      </nav>
+    </div>
+
+    <section class="page-hero surface-light">
+      <div class="container narrow-flow">
+        <p class="eyebrow">Student support services</p>
+        <h1>Resources that help students succeed</h1>
+        <p>
+          This page demonstrates accessible expand and collapse sections, semantic content grouping,
+          and responsive layouts for higher education support services.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container accordion-wrap">
+        <article class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" type="button">
+            Academic Advising
+          </button>
+          <div class="accordion-panel" hidden>
+            <p>Meet with advisors to plan your degree, registration strategy, and long-term academic goals.</p>
+          </div>
+        </article>
+
+        <article class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" type="button">
+            Tutoring and Learning Support
+          </button>
+          <div class="accordion-panel" hidden>
+            <p>Access tutoring, writing support, study workshops, and academic coaching resources.</p>
+          </div>
+        </article>
+
+        <article class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" type="button">
+            Counseling and Wellness
+          </button>
+          <div class="accordion-panel" hidden>
+            <p>Explore counseling, mental wellness, stress management, and student well-being support.</p>
+          </div>
+        </article>
+
+        <article class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" type="button">
+            Career Development
+          </button>
+          <div class="accordion-panel" hidden>
+            <p>Find resume help, internship guidance, interview preparation, and career exploration services.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section surface-light">
+      <div class="container card-grid three-col">
+        <article class="card">
+          <h3>Advising Support</h3>
+          <p>Clear pathways for academic planning and degree progress.</p>
+        </article>
+        <article class="card">
+          <h3>Wellness Support</h3>
+          <p>Holistic student support for mental, emotional, and academic balance.</p>
+        </article>
+        <article class="card">
+          <h3>Career Readiness</h3>
+          <p>Practical preparation for jobs, internships, and long-term professional growth.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2 class="footer-title">Campus Connect</h2>
+        <p>Support-centered design for the full student journey.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Student Services</h2>
+        <ul class="footer-list">
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Accessibility</h2>
+        <p>Accordion interaction is keyboard-friendly and progressively enhanced with JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
