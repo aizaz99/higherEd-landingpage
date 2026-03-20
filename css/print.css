@@ -1,0 +1,37 @@
+body {
+  background: #fff;
+  color: #000;
+  font-size: 12pt;
+}
+
+.site-header,
+.site-footer,
+.menu-toggle,
+.modal,
+.btn,
+.skip-link {
+  display: none !important;
+}
+
+main,
+.section,
+.page-hero {
+  padding: 0 !important;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.card,
+.stat-card,
+.sidebar-card {
+  box-shadow: none;
+  border: 1px solid #999;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
